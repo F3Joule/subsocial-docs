@@ -5,13 +5,13 @@ module.exports = {
   There are ideas on the table to purpose this for the Kusama, and perhaps Polkadot, governance
   platform. I think that this is exactly the sort of thing that we'll be seeing supported increasingly
   into 2020 through the Polkadot and Kusama treasuries.” – Gavin Wood`,
-  url: 'https://dappforce.github.io/',
+  url: 'https://f3joule.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'dappforce',
-  projectName: 'dappforce.github.io',
+  organizationName: 'f3joule',
+  projectName: 'f3joule.github.io',
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'es-ES', 'ch'],
@@ -158,7 +158,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/dappforce/dappforce.github.io',
+            'https://github.com/f3joule/f3joule.github.io',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
