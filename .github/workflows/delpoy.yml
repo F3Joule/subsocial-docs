@@ -1,4 +1,4 @@
-name: Deploy Subsocial docs to dappforce.github.io
+name: Deploy Subsocial docs to f3joule.github.io
 
 on:
   workflow_dispatch:
@@ -27,5 +27,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: dappforce/dappforce.github.io
+          external_repository: f3joule/f3joule.github.io
           publish_dir: ./build
